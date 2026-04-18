@@ -25,14 +25,14 @@
 .cta-section__icon {
   width: 68px; height: 68px;
   border-radius: 18px;
-  background: linear-gradient(135deg, var(--accent-2), var(--accent));
+  background: linear-gradient(135deg, #e8402a, #ff6b2b);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   margin-bottom: 28px;
   animation: float 3.5s ease-in-out infinite;
-  box-shadow: 0 16px 40px rgba(0,229,255,0.25);
+  box-shadow: 0 16px 40px rgba(255,107,43,0.25);
 }
 
 .cta-section__title {

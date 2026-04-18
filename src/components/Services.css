@@ -44,11 +44,10 @@
   position: relative;
   padding: 32px;
   border-radius: var(--radius);
-  background: var(--surface);
-  border: 1px solid var(--border);
-  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.04);
   transition: all 0.3s ease;
-  cursor: default;
 }
 
 .service-card::before {
@@ -63,9 +62,9 @@
 
 .service-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(255,255,255,0.12);
-  background: var(--surface-2);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.3), var(--glow);
+  box-shadow: 0 20px 48px rgba(0,0,0,0.1);
+  border-color: rgba(255,77,61,0.2);
+  background: #ffffff;
 }
 
 .service-card:hover::before { opacity: 1; }
