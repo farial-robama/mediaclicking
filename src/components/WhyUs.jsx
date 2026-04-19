@@ -30,24 +30,24 @@ export default function WhyUs() {
       <div className="container whyus__inner">
         <div className="whyus__left">
           <span className="section-tag">Why MediaClicking</span>
-          <h2 className="section-title" style={{textAlign:'left'}}>
+          <h2 className="section-title" style={{ textAlign: 'left' }}>
             We Don't Just Market.<br />We <span className="text-accent">Grow Brands.</span>
           </h2>
-          <p className="section-sub" style={{textAlign:'left', maxWidth:'none', marginBottom:32}}>
+          <p className="section-sub" style={{ textAlign: 'left', maxWidth: 'none', marginBottom: 32 }}>
             Most agencies chase vanity metrics. We chase revenue. Our obsession
             with ROI has helped 500+ businesses break through plateaus and reach new heights.
           </p>
           <div className="whyus__proof">
             <div className="whyus__proof-item">
-              <div className="whyus__proof-dot" />
+              <div className="whyus__proof-dot whyus__proof-dot--red" />
               <span>Google Partner Agency</span>
             </div>
             <div className="whyus__proof-item">
-              <div className="whyus__proof-dot" style={{background:'#7b2ff7'}} />
+              <div className="whyus__proof-dot whyus__proof-dot--navy" />
               <span>Meta Business Partner</span>
             </div>
             <div className="whyus__proof-item">
-              <div className="whyus__proof-dot" style={{background:'#ff4d6d'}} />
+              <div className="whyus__proof-dot whyus__proof-dot--gold" />
               <span>HubSpot Certified</span>
             </div>
           </div>
