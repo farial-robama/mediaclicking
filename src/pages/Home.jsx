@@ -1,25 +1,45 @@
-import Hero from '../components/Hero'
-import Marquee from '../components/Marquee'
-import Services from '../components/Services'
-import ProcessSection from '../components/ProcessSection'
-import Stats from '../components/Stats'
-import ResultsShowcase from '../components/ResultsShowcase'
-import WhyUs from '../components/WhyUs'
-import Testimonials from '../components/Testimonials'
-import CTA from '../components/CTA'
+import Hero from "../components/Hero";
+import Marquee from "../components/Marquee";
+import Services from "../components/Services";
+import ProcessSection from "../components/ProcessSection";
+import ResultsShowcase from "../components/ResultsShowcase";
+import WhyUs from "../components/WhyUs";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
+import Insights from "../components/Insights";
 
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <section id="home">
+        <Hero />
+      </section>
+
       <Marquee />
-      <Services />
+
+      <section id="about">
+        <WhyUs />
+      </section>
+
+      <section id="services">
+        <Services />
+      </section>
+
       <ProcessSection />
-      <Stats />
-      <ResultsShowcase />
-      <WhyUs />
+
+      <section id="work">
+        <ResultsShowcase />
+      </section>
+
+      <section id="insights">
+        <Insights />
+      </section>
+
       <Testimonials />
-      <CTA />
+
+      <section id="contact">
+        <Contact />
+      </section>
     </main>
-  )
+  );
 }
